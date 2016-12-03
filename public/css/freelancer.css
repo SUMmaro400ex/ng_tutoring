@@ -4,10 +4,57 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus{
+  background-color: white !important;
+}
+#our-facility{
+  padding-bottom: 40px;
+  color: white;
+}
+section#facility{
+  padding: 0px;
+  background: #1DAFEC;
+}
+ .carousel{
+    background: #1DAFEC;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+    height: 70vh;
+}
+
+li.contact-footer{
+  font-size: 1em;
+}
+ .img-modal{
+   height: 20vh;
+ }
+ footer div.footer-above{
+   padding-top:0px;
+ }
+section#contact{
+  padding-bottom: 5vh;
+}
+ a{
+   text-decoration: none !important;
+ }
+.team-member-name{
+  font-size: 2em;
+  text-align: center;
+  color: black;
+}
+
+.team-link:hover{
+  text-decoration: none !important;
+}
+
  #send{
-   background-color: black;
-   color: #666666;
-   border: 1px solid #666666;
+   background-color: white;
+   color: #1DAFEC;
+   border: 1px solid white;
  }
 
 #submit-btn-div{
@@ -17,11 +64,28 @@ form .control-group{
   margin: 2em;
 }
 #contact-header{
-  color: #666666;
+  color: white;
 }
 
+#contact-info-header{
+   color:white;
+}
+
+p.help-block.text-danger ul li{
+  color: red;
+}
+
+div.floating-label-form-group input,label,textarea{
+  color: white !important;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+ 
  #contact{
-   background-color: black;
+   background-color: #1DAFEC;
  }
 
  .section-title{
@@ -245,17 +309,17 @@ section.success {
     padding: 1em;
   }
 }
-#portfolio .portfolio-item {
+#team .team-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#team .team-item .team-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
+#team .team-item .team-link .caption {
   background: rgba(24, 188, 156, 0.9);
   position: absolute;
   width: 100%;
@@ -265,10 +329,10 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#team .team-item .team-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#team .team-item .team-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -278,18 +342,18 @@ section.success {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#team .team-item .team-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#team .team-item .team-link .caption .caption-content h3,
+#team .team-item .team-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#team * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #team .team-item {
     margin: 0 0 30px;
   }
 }
@@ -350,7 +414,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #1DAFEC;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -481,7 +545,7 @@ fieldset[disabled] .btn-success.active {
 .scroll-top .btn:focus {
   outline: none;
 }
-.portfolio-modal .modal-content {
+.team-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -491,17 +555,17 @@ fieldset[disabled] .btn-success.active {
   padding: 100px 0;
   text-align: center;
 }
-.portfolio-modal .modal-content h2 {
+.team-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
 }
-.portfolio-modal .modal-content img {
+.team-modal .modal-content img {
   margin-bottom: 30px;
 }
-.portfolio-modal .modal-content .item-details {
+.team-modal .modal-content .item-details {
   margin: 30px 0;
 }
-.portfolio-modal .close-modal {
+.team-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -510,10 +574,10 @@ fieldset[disabled] .btn-success.active {
   right: 25px;
   cursor: pointer;
 }
-.portfolio-modal .close-modal:hover {
+.team-modal .close-modal:hover {
   opacity: 0.3;
 }
-.portfolio-modal .close-modal .lr {
+.team-modal .close-modal .lr {
   height: 75px;
   width: 1px;
   margin-left: 35px;
@@ -525,7 +589,7 @@ fieldset[disabled] .btn-success.active {
   /* Safari and Chrome */
   z-index: 1051;
 }
-.portfolio-modal .close-modal .lr .rl {
+.team-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
   background-color: #2C3E50;
@@ -536,7 +600,7 @@ fieldset[disabled] .btn-success.active {
   /* Safari and Chrome */
   z-index: 1052;
 }
-.portfolio-modal .modal-backdrop {
+.team-modal .modal-backdrop {
   opacity: 0;
   display: none;
 }
