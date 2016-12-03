@@ -21,10 +21,11 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "/email",
                 type: "POST",
                 data: {
                     name: name,
+                    to_email: 'jonr87ee@gmail.com',
                     phone: phone,
                     email: email,
                     message: message
