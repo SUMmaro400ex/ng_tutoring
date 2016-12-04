@@ -21,8 +21,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                // url: "https://frozen-brushlands-41583.herokuapp.com/sendEmail",
-                url: "http://localhost:4567/sendEmail",
+                url: "https://frozen-brushlands-41583.herokuapp.com/sendEmail",
+                // url: "http://localhost:4567/sendEmail",
                 dataType: "jsonp",
                 jsonp: "callback",
                 data: {
