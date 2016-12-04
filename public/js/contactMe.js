@@ -21,14 +21,16 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "/email",
-                type: "POST",
+                url: "https://frozen-brushlands-41583.herokuapp.com/sendEmail",
+                dataType: 'jsonp',
                 data: {
                     name: name,
                     to_email: 'jonr87ee@gmail.com',
                     phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    subject: "NG Tutoring Contact Form Email",
+                    body: name +" wrote:\n" + message + "\n Email them back at: \n" + email
                 },
                 cache: false,
                 success: function() {

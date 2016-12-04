@@ -27,7 +27,7 @@ section#facility{
 }
 
 li.contact-footer{
-  font-size: 1em;
+  font-size: 0.75em;
 }
  .img-modal{
    height: 20vh;
@@ -36,7 +36,7 @@ li.contact-footer{
    padding-top:0px;
  }
 section#contact{
-  padding-bottom: 5vh;
+  padding-bottom: 2vh;
 }
  a{
    text-decoration: none !important;
