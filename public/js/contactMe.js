@@ -21,8 +21,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://frozen-brushlands-41583.herokuapp.com/sendEmail",
-                dataType: 'jsonp',
+                // url: "https://frozen-brushlands-41583.herokuapp.com/sendEmail",
+                url: "http://localhost:4567/sendEmail",
+                dataType: "jsonp",
+                jsonp: "callback",
                 data: {
                     name: name,
                     to_email: 'jonr87ee@gmail.com',
@@ -33,8 +35,9 @@ $(function() {
                     body: name +" wrote:\n" + message + "\n Email them back at: \n" + email
                 },
                 cache: false,
-                success: function() {
+                success: function(data) {
                     // Enable button & show success message
+                    console.log(data);
                     $("#btnSubmit").attr("disabled", false);
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
