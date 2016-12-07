@@ -7,7 +7,9 @@ $(function() {
         },
         submitSuccess: function($form, event) {
             // Prevent spam click and default submit behaviour
-            $("#btnSubmit").attr("disabled", true);
+            $("#sender").hide();
+            $("#spinner").show();
+
             event.preventDefault();
             
             // get values from FORM
@@ -49,6 +51,8 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    $("#sender").show();
+                    $("#spinner").hide();
                 },
                 error: function() {
                     // Fail message
@@ -59,6 +63,8 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    $("#sender").show();
+                    $("#spinner").hide();
                 },
             });
         },

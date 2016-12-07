@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -261,35 +261,59 @@
             <div class="row">
                 <div class="col-sm-4 team-item">
                     <a href="#teamModal1" class="team-link" data-toggle="modal">
-                        <h1 class="team-member-name">Paul Richard</h1>
+                        <h1 class="team-member-name">Mr. Richard</h1>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="http://bit.ly/2gzS0FV" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 team-item">
-                    <a href="#teamModal2" class="team-link" data-toggle="modal">
-                        <h1 class="team-member-name">Patricia Richard</h1>
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://bit.ly/2gzS0FV" class="img-responsive" alt="">
+                        <img src="img/paul_richard.png" class="img-responsive img-staff" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 team-item">
                     <a href="#teamModal3" class="team-link" data-toggle="modal">
-                        <h1 class="team-member-name">Christina Porcelli</h1>
+                        <h1 class="team-member-name">Mrs. Tarabocchia</h1>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="http://bit.ly/2gzS0FV" class="img-responsive" alt="">
+                        <img src="img/patricia_tarabocchia.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 team-item">
+                    <a href="#teamModal2" class="team-link" data-toggle="modal">
+                        <h1 class="team-member-name">Ms. Porcelli</h1>
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/christina_porcelli.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 team-item">
+                    <a href="#teamModal4" class="team-link" data-toggle="modal">
+                        <h1 class="team-member-name">Ms. Scalice</h1>
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/kimberly_scalice.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 team-item">
+                    <a href="#teamModal5" class="team-link" data-toggle="modal">
+                        <h1 class="team-member-name">Mr. Villa</h1>
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/tom_villa.png" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -359,7 +383,8 @@
                         <div id="success"></div>
                         <div class="row">
                             <div id="submit-btn-div" class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg" id="send">Send</button>
+                                <button type="submit" class="btn btn-success btn-lg send" id="spinner"><i class="fa fa-spinner fa-spin fa-1x fa-fw"></i></button>
+                                <button type="submit" class="btn btn-success btn-lg send" id="sender">Send</button>
                             </div>
                         </div>
                     </form>
@@ -406,12 +431,19 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-10 col-lg-offset-1">
                         <div class="modal-body">
-                            <h2>Paul Richard</h2>
+                            <h2>Mr. Richard</h2>
                             <hr class="star-primary">
-                            <img src="http://bit.ly/2gzS0FV" class="img-responsive img-centered img-modal" alt="">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec commodo eros. Donec lobortis urna turpis, a tincidunt metus ornare eleifend. Nam aliquam facilisis ante sit amet pharetra. Donec sapien felis, luctus eu sapien a, suscipit interdum magna. Fusce in est tempus, gravida lacus sit amet, facilisis nisi. Cras placerat mauris vitae ipsum feugiat, vel tempus enim bibendum. In hendrerit tortor efficitur nibh commodo, nec fringilla ipsum faucibus. Nunc id semper odio. Morbi vestibulum rhoncus massa, in dapibus nunc. Pellentesque et ex eros. Suspendisse accumsan eleifend nibh sed posuere. Fusce vehicula diam vitae velit accumsan semper sed in libero. Morbi congue dapibus malesuada.</p>
+                            <img src="img/paul_richard.png" class="img-responsive img-centered img-modal" alt="">
+                            <h5>Paul Richard</h5>
+                            <h5>High School Math Teacher</h5>
+                            <h5>Managing Director</h5>
+                            <p>Paul Richard is a passionate High School Math Teacher and the Director of Services at Next 
+                                Generation Tutoring! Paul earned his Bachelors of Science Degree in Mathematics from Ramapo 
+                                College of New Jersey. Mr. Richard has taught all high school math classes and has been tutoring all 
+                                subjects of math since he started teaching in 2013. These subjects include, Algebra, Geometry, 
+                                Elementary and Middle School Math, Calculus and College Math. He also specializes in SAT and ACT Math!</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -429,12 +461,17 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-10 col-lg-offset-1">
                         <div class="modal-body">
-                            <h2>Patricia Richard</h2>
+                            <h2>Ms. Porcelli</h2>
                             <hr class="star-primary">
-                            <img src="http://bit.ly/2gzS0FV" class="img-responsive img-centered img-modal" alt="">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec commodo eros. Donec lobortis urna turpis, a tincidunt metus ornare eleifend. Nam aliquam facilisis ante sit amet pharetra. Donec sapien felis, luctus eu sapien a, suscipit interdum magna. Fusce in est tempus, gravida lacus sit amet, facilisis nisi. Cras placerat mauris vitae ipsum feugiat, vel tempus enim bibendum. In hendrerit tortor efficitur nibh commodo, nec fringilla ipsum faucibus. Nunc id semper odio. Morbi vestibulum rhoncus massa, in dapibus nunc. Pellentesque et ex eros. Suspendisse accumsan eleifend nibh sed posuere. Fusce vehicula diam vitae velit accumsan semper sed in libero. Morbi congue dapibus malesuada.</p>
+                            <img src="img/christina_porcelli.png" class="img-responsive img-centered img-modal" alt="">
+                            <h5>Christina Porcelli</h5>
+                            <h5>Middle School Math Teacher</h5>
+                            <p>Christina Porcelli has been teaching math in the Wayne school system for 4 years! Ms. Porcelli graduated 
+                                with a Bachelors of Science in Mathematics from Ramapo College of New Jersey and has been teaching ever 
+                                since. She is certified to teach Grades K through 12, specifically Math 6th through 12th! She has experience 
+                                with all levels of math learning and is extensively familiar with the common core, differentiated instruction and PARCC testing!</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -452,12 +489,76 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-10 col-lg-offset-1">
                         <div class="modal-body">
-                            <h2>Christina Porcelli</h2>
+                            <h2>Mrs. Tarabocchia</h2>
                             <hr class="star-primary">
-                            <img src="http://bit.ly/2gzS0FV" class="img-responsive img-centered img-modal" alt="">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec commodo eros. Donec lobortis urna turpis, a tincidunt metus ornare eleifend. Nam aliquam facilisis ante sit amet pharetra. Donec sapien felis, luctus eu sapien a, suscipit interdum magna. Fusce in est tempus, gravida lacus sit amet, facilisis nisi. Cras placerat mauris vitae ipsum feugiat, vel tempus enim bibendum. In hendrerit tortor efficitur nibh commodo, nec fringilla ipsum faucibus. Nunc id semper odio. Morbi vestibulum rhoncus massa, in dapibus nunc. Pellentesque et ex eros. Suspendisse accumsan eleifend nibh sed posuere. Fusce vehicula diam vitae velit accumsan semper sed in libero. Morbi congue dapibus malesuada.</p>
+                            <img src="img/patricia_tarabocchia.png" class="img-responsive img-centered img-modal" alt="">
+                            <h5>Patricia Tarabocchia</h5>
+                            <h5>Elementary School Teacher</h5>
+                            <h5>Assistant Managing Director</h5>
+                            <p>Patricia is a passionate third grade teacher! She has been teaching second and third grade since 
+                                2011. During her first 6 years, Patricia has taught general and special education. She has extensive 
+                                experience with common core, guided reading, Writer’s Workshop, various math curricula, 
+                                manipulative tools, differentiated instruction and PARCC testing. She also has experience with IEPs, 
+                                504 Plans, and students with a variety of learning disabilities.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team-modal modal fade" id="teamModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body">
+                            <h2>Ms. Scalice</h2>
+                            <hr class="star-primary">
+                            <img src="img/kimberly_scalice.png" class="img-responsive img-centered img-modal" alt="">
+                            <h5>Kimberly Scalice</h5>
+                            <h5>English/Language Arts Teacher</h5>
+                            <p>Ms. Scalice is a passionate English/Language Arts teacher with her Masters Degree in Instruction 
+                                and Students with Disabilities. She has taught at the middle and high school levels for 9 years. Ms. 
+                                Scalice tutors students from Kindergarten through grade 12 in reading, writing, and study skills. 
+                                Kimberly is the English/Language Arts SAT and ACT specialist at Next Generation Tutoring!</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team-modal modal fade" id="teamModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body">
+                            <h2>Mr. Villa</h2>
+                            <hr class="star-primary">
+                            <img src="img/tom_villa.png" class="img-responsive img-centered img-modal" alt="">
+                            <h5>Tom Villa</h5>
+                            <h5>High School Science Teacher</h5>
+                            <p>Tom Villa graduated from Ramapo College of New Jersey with a Bachelors of Science Degree in 
+                                Chemistry. Tom has been teaching high school Chemistry since 2010. He currently teaches at 
+                                Wayne Valley High School! During Mr. Villa’s 6 years of teaching, he has taught all levels of 
+                                Chemistry including honors, college prep, and inclusion special education classes. Tom is 
+                                available to teach first year Chemistry or Middle School Math to any students!</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
