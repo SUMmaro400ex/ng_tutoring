@@ -24,7 +24,7 @@ $(function() {
             }
             $.ajax({
                 url: "https://frozen-brushlands-41583.herokuapp.com/sendEmail",
-                // url: "http://localhost:4567/sendEmail",
+                // url: "http://localhost:4567/send-email",
                 dataType: "jsonp",
                 jsonp: "callback",
                 data: {
