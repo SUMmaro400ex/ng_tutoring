@@ -4,29 +4,28 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+[data-slides] {
+	background-image: url(../../uploads/banner1.jpg); /* Default image. */
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	transition: background-image 1s linear;
+}
+
+/* Use additional CSS to control the `height` of `[data-slides]`, like so: */
+
+.img-slider { height: 80vh; }
+@media all and (min-width: 48em) {
+	.img-slider { height: 80vh; }
+}
+
+
 #spinner{
   display: none;
 }
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus{
   background-color: white !important;
-}
-#our-facility{
-  padding-bottom: 40px;
-  color: white;
-}
-section#facility{
-  padding: 0px;
-  background: #1DAFEC;
-}
- .carousel{
-    background: #1DAFEC;
-    padding-top: 50px;
-    padding-bottom: 70px;
-    margin-top: 20px;
-}
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
-    height: 70vh;
 }
 
 li.contact-footer{
@@ -97,7 +96,8 @@ div.floating-label-form-group input,label,textarea{
 
  #about{
     padding: 50px 0;
-    background: url(http://ngtutoring.com/wp-content/uploads/2016/10/classrom1-e1477621707548.jpeg) no-repeat center center scroll;
+    background-color: #1DAFEC;
+    /*background: url(http://ngtutoring.com/wp-content/uploads/2016/10/classrom1-e1477621707548.jpeg) no-repeat center center scroll;*/
     color: white;
  }
 
@@ -184,7 +184,6 @@ h6 {
 header {
   height: 90vh;
   text-align: center;
-  background: url(http://ngtutoring.com/wp-content/uploads/2016/08/bookshelf.jpeg) repeat top left scroll;
   color: white;
 }
 header .container {
@@ -200,7 +199,12 @@ header .intro-text .name {
   margin-top: 10vh;
   border-left-width: 0!important;
   border-right-width: 0!important;
-  border-style: solid;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  border-style: ridge;
   border-color: inherit;
   font-family: 'Lustria',serif,"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
