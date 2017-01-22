@@ -6,20 +6,26 @@
 
 
 [data-slides] {
-	background-image: url(../../uploads/banner1.jpg); /* Default image. */
+	background-image: url(../../banner1.jpg); /* Default image. */
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
 	transition: background-image 1s linear;
 }
 
-/* Use additional CSS to control the `height` of `[data-slides]`, like so: */
+.table{
+  text-align: left;
+}
 
 .img-slider { height: 80vh; }
 @media all and (min-width: 48em) {
 	.img-slider { height: 80vh; }
 }
 
+#test-dates{
+   background-color: #1DAFEC;
+   color: white;
+ }
 
 #spinner{
   display: none;
