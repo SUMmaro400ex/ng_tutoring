@@ -43,12 +43,11 @@ $(function() {
             }
             $.ajax({
                 url: "https://frozen-brushlands-41583.herokuapp.com/send-email",
-                // url: "http://localhost:4567/send-email",
                 dataType: "jsonp",
                 jsonp: "callback",
                 data: {
                     name: name,
-                    to_email: 'jonr87ee@gmail.com',
+                    to_email: 'support@ngtutoring.com',
                     phone: phone,
                     email: email,
                     message: message,
