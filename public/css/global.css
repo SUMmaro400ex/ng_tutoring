@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
- header{
-   height: 120vh;
+header{
+   height: 130vmin;
    background-color: #1DAFEC;
  }
 
@@ -167,7 +167,7 @@ h6 {
   border-right-width: 0!important;
   color: white;
   border-style: ridge;
-  border-color: inherit;
+  border-color: white;
   font-family: 'Lustria',serif,"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.5em;
