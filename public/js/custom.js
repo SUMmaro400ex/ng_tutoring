@@ -28,7 +28,7 @@ $(function() {
                 jsonp: "callback",
                 data: {
                     name: name,
-                    to_email: 'support@ngtutoring.com',
+                    to_email: 'prichard1218@gmail.com',
                     phone: phone,
                     email: email,
                     message: message,
