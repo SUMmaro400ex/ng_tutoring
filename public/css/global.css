@@ -5,7 +5,7 @@
  */
 
 header{
-   height: 130vmin;
+   height: 700px;
    background-color: #1DAFEC;
  }
 
@@ -41,7 +41,7 @@ section#contact{
    text-decoration: none !important;
  }
 .team-member-name{
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   color: black;
 }
